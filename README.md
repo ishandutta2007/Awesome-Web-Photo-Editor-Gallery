@@ -61,93 +61,93 @@ The table below catalogs premier commercial web photo editors and client gallery
 
 ## 💻 Open-Source GitHub Projects
 
-The following self-hosted galleries and browser-based photo editors are ranked strictly in **descending order of GitHub Star count**. Each badge connects directly to the repository's stargazers.
+The following self-hosted galleries and browser-based photo editors are ranked strictly in **descending order of GitHub Stars_Count**. Each badge connects directly to the repository's stargazers.
 
-### 1. [Immich](https://github.com/immich-app/immich) [![GitHub stars](https://img.shields.io/github/stars/immich-app/immich?style=social&color=white)](https://github.com/immich-app/immich/stargazers)
+### 1. [Immich](https://github.com/immich-app/immich) [![GitHub_Stars](https://img.shields.io/github/stars/immich-app/immich?style=social&color=white)](https://github.com/immich-app/immich/stargazers)
 * **License:** AGPL-3.0 | **Stack:** TypeScript, Dart, Python, Docker
 * **Overview:** The premier self-hosted alternative to Google Photos. Features automatic background camera backup from iOS and Android devices, timeline navigation, shared partner libraries, and album management.
 * **Key Strengths:** High-performance local machine learning pipeline — runs facial clustering, CLIP natural-language semantic query search ("sunset over mountains"), and reverse-geocoding without sending a single byte to third-party cloud APIs.
 * **Considerations:** Machine learning indexing is CPU/GPU intensive (benefits from OpenVINO/CUDA hardware acceleration). Mobile upload creates a single repository copy; independent database and filesystem backups are essential.
 
-### 2. [PhotoPrism](https://github.com/photoprism/photoprism) [![GitHub stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers)
+### 2. [PhotoPrism](https://github.com/photoprism/photoprism) [![GitHub_Stars](https://img.shields.io/github/stars/photoprism/photoprism?style=social&color=white)](https://github.com/photoprism/photoprism/stargazers)
 * **License:** AGPL-3.0 | **Stack:** Go, Vue.js, TensorFlow
 * **Overview:** Highly mature, AI-powered self-hosted photo management system specifically engineered for browsing, indexing, and organizing extensive archival libraries of camera originals and RAW images.
 * **Key Strengths:** World-class metadata extraction (Exif, XMP, IPTC), automatic face recognition, classification by color spectrum and location, and duplicate image detection across large storage pools.
 * **Considerations:** Emphasizes web-first PWA browsing rather than native mobile background synchronization.
 
-### 3. [Ente](https://github.com/ente-io/ente) [![GitHub stars](https://img.shields.io/github/stars/ente-io/ente?style=social&color=white)](https://github.com/ente-io/ente/stargazers)
+### 3. [Ente](https://github.com/ente-io/ente) [![GitHub_Stars](https://img.shields.io/github/stars/ente-io/ente?style=social&color=white)](https://github.com/ente-io/ente/stargazers)
 * **License:** AGPL-3.0 | **Stack:** Flutter, Go, TypeScript
 * **Overview:** End-to-end encrypted (E2EE) photo storage and client gallery platform designed for absolute data confidentiality. Cryptographic keys never leave the client device.
 * **Key Strengths:** Seamless cross-platform client apps (iOS, Android, Web, Desktop), automated background sync, family sharing, and cryptographic guarantees that neither hosting providers nor server operators can view stored media.
 * **Considerations:** Encrypted architecture precludes server-side AI processing; indexing occurs entirely client-side.
 
-### 4. [Graphite](https://github.com/GraphiteEditor/Graphite) [![GitHub stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social&color=white)](https://github.com/GraphiteEditor/Graphite/stargazers)
+### 4. [Graphite](https://github.com/GraphiteEditor/Graphite) [![GitHub_Stars](https://img.shields.io/github/stars/GraphiteEditor/Graphite?style=social&color=white)](https://github.com/GraphiteEditor/Graphite/stargazers)
 * **License:** Apache-2.0 | **Stack:** Rust, WebAssembly, TypeScript
 * **Overview:** Next-generation 2D graphics and non-destructive raster/vector image editor that runs natively in modern web browsers powered by a high-performance procedural Rust engine.
 * **Key Strengths:** Node-based non-destructive compositing, GPU-accelerated canvas, zero-install instant loading, and modern vector-plus-raster editing capabilities.
 * **Considerations:** Rapidly evolving; some legacy desktop workflows and CMYK print pipelines are still in active development.
 
-### 5. [LightCraft](https://github.com/storytold/lightcraft) [![GitHub stars](https://img.shields.io/github/stars/storytold/lightcraft?style=social&color=white)](https://github.com/storytold/lightcraft/stargazers)
+### 5. [LightCraft](https://github.com/storytold/lightcraft) [![GitHub_Stars](https://img.shields.io/github/stars/storytold/lightcraft?style=social&color=white)](https://github.com/storytold/lightcraft/stargazers)
 * **License:** MIT / Apache-2.0 | **Stack:** Rust, WebAssembly, WebGPU
 * **Overview:** An open-source, non-destructive photo editor and library manager built from scratch in pure Rust, offering a lightweight alternative to Adobe Lightroom.
 * **Key Strengths:** Browser execution via WebAssembly alongside native desktop builds; native RAW decoding for Sony, Canon, Nikon, and Fujifilm sensors; non-destructive tone curves, exposure grading, and grain simulation.
 * **Considerations:** Actively developing camera-specific color profiles and localized AI-masking features.
 
-### 6. [LibrePhotos](https://github.com/LibrePhotos/librephotos) [![GitHub stars](https://img.shields.io/github/stars/LibrePhotos/librephotos?style=social&color=white)](https://github.com/LibrePhotos/librephotos/stargazers)
+### 6. [LibrePhotos](https://github.com/LibrePhotos/librephotos) [![GitHub_Stars](https://img.shields.io/github/stars/LibrePhotos/librephotos?style=social&color=white)](https://github.com/LibrePhotos/librephotos/stargazers)
 * **License:** MIT | **Stack:** Python (Django), React
 * **Overview:** Self-hosted photo management service (evolution of OwnPhotos) designed to give users a fully private personal Google Photos clone.
 * **Key Strengths:** Face recognition and training, object and scene detection, semantic search, geocoding with map exploration, and Nextcloud filesystem integration.
 * **Considerations:** Initial library scanning and face clustering requires moderate RAM and CPU resources during onboarding.
 
-### 7. [TUI Image Editor](https://github.com/nhn/tui.image-editor) [![GitHub stars](https://img.shields.io/github/stars/nhn/tui.image-editor?style=social&color=white)](https://github.com/nhn/tui.image-editor/stargazers)
+### 7. [TUI Image Editor](https://github.com/nhn/tui.image-editor) [![GitHub_Stars](https://img.shields.io/github/stars/nhn/tui.image-editor?style=social&color=white)](https://github.com/nhn/tui.image-editor/stargazers)
 * **License:** MIT | **Stack:** JavaScript, HTML5 Canvas
 * **Overview:** Battle-tested, full-featured web photo editor component easily embeddable into any web application or client gallery.
 * **Key Strengths:** Intuitive crop, flip, rotate, drawing, shape masking, text overlay, and vintage filter processing. Lightweight with zero backend dependencies.
 * **Considerations:** Primarily a front-end UI component for raster adjustments rather than a full catalog manager.
 
-### 8. [Photoview](https://github.com/photoview/photoview) [![GitHub stars](https://img.shields.io/github/stars/photoview/photoview?style=social&color=white)](https://github.com/photoview/photoview/stargazers)
+### 8. [Photoview](https://github.com/photoview/photoview) [![GitHub_Stars](https://img.shields.io/github/stars/photoview/photoview?style=social&color=white)](https://github.com/photoview/photoview/stargazers)
 * **License:** AGPL-3.0 | **Stack:** Go, Vue.js, Docker
 * **Overview:** Clean, user-friendly, self-hosted photo gallery designed for photographers who want a fast, lightweight presentation layer over an existing folder structure.
 * **Key Strengths:** Low resource overhead, automatic thumbnail and video generation, RAW image format parsing, EXIF viewing, and face recognition.
 * **Considerations:** Assumes directory-based library organization; does not modify underlying file structures.
 
-### 9. [Lychee](https://github.com/LycheeOrg/Lychee) [![GitHub stars](https://img.shields.io/github/stars/LycheeOrg/Lychee?style=social&color=white)](https://github.com/LycheeOrg/Lychee/stargazers)
+### 9. [Lychee](https://github.com/LycheeOrg/Lychee) [![GitHub_Stars](https://img.shields.io/github/stars/LycheeOrg/Lychee?style=social&color=white)](https://github.com/LycheeOrg/Lychee/stargazers)
 * **License:** MIT | **Stack:** PHP (Laravel), TypeScript, Vue.js
 * **Overview:** Elegant and minimalist self-hosted photo management system that runs effortlessly on standard LAMP/LEMP servers, NAS appliances, or Docker.
 * **Key Strengths:** Fast upload workflow, password-protected albums, public sharing links, multi-user permissions, and responsive presentation.
 * **Considerations:** Focused on clean presentation and basic organization; does not feature AI-assisted semantic tagging.
 
-### 10. [Piwigo](https://github.com/Piwigo/Piwigo) [![GitHub stars](https://img.shields.io/github/stars/Piwigo/Piwigo?style=social&color=white)](https://github.com/Piwigo/Piwigo/stargazers)
+### 10. [Piwigo](https://github.com/Piwigo/Piwigo) [![GitHub_Stars](https://img.shields.io/github/stars/Piwigo/Piwigo?style=social&color=white)](https://github.com/Piwigo/Piwigo/stargazers)
 * **License:** GPL-2.0 | **Stack:** PHP, MySQL
 * **Overview:** Veteran open-source web photo gallery platform serving individuals, organizations, and professional photographers worldwide since 2002.
 * **Key Strengths:** Extensive plugin and theme ecosystem (hundreds of extensions), batch management, fine-grained access permissions, and multi-language support.
 * **Considerations:** Classic LAMP-stack architecture; modern single-page-app dynamics require specific community themes.
 
-### 11. [Chevereto Free](https://github.com/rodber/chevereto-free) [![GitHub stars](https://img.shields.io/github/stars/rodber/chevereto-free?style=social&color=white)](https://github.com/rodber/chevereto-free/stargazers)
+### 11. [Chevereto Free](https://github.com/rodber/chevereto-free) [![GitHub_Stars](https://img.shields.io/github/stars/rodber/chevereto-free?style=social&color=white)](https://github.com/rodber/chevereto-free/stargazers)
 * **License:** AGPL-3.0 | **Stack:** PHP, JavaScript
 * **Overview:** Popular self-hosted image hosting software and multi-album gallery solution, functioning as a private Imgur/Flickr replacement.
 * **Key Strengths:** Drag-and-drop web uploading, privacy controls, direct image link generation, embed codes for forums/markdown, and user profiles.
 * **Considerations:** Advanced enterprise multi-server storage and commercial billing modules require paid Chevereto licenses.
 
-### 12. [PiGallery 2](https://github.com/bpatrik/pigallery2) [![GitHub stars](https://img.shields.io/github/stars/bpatrik/pigallery2?style=social&color=white)](https://github.com/bpatrik/pigallery2/stargazers)
+### 12. [PiGallery 2](https://github.com/bpatrik/pigallery2) [![GitHub_Stars](https://img.shields.io/github/stars/bpatrik/pigallery2?style=social&color=white)](https://github.com/bpatrik/pigallery2/stargazers)
 * **License:** MIT | **Stack:** TypeScript, Node.js, Angular
 * **Overview:** Directory-first photo gallery website designed specifically for low-powered single-board computers (like the Raspberry Pi).
 * **Key Strengths:** Blazing fast navigation directly mirroring folder hierarchies, zero lock-in, on-the-fly transcoding, and low RAM utilization.
 * **Considerations:** Intended as a lean viewing and browsing gallery rather than an in-browser photo manipulation tool.
 
-### 13. [Filerobot Image Editor](https://github.com/scaleflex/filerobot-image-editor) [![GitHub stars](https://img.shields.io/github/stars/scaleflex/filerobot-image-editor?style=social&color=white)](https://github.com/scaleflex/filerobot-image-editor/stargazers)
+### 13. [Filerobot Image Editor](https://github.com/scaleflex/filerobot-image-editor) [![GitHub_Stars](https://img.shields.io/github/stars/scaleflex/filerobot-image-editor?style=social&color=white)](https://github.com/scaleflex/filerobot-image-editor/stargazers)
 * **License:** MIT | **Stack:** React, TypeScript, HTML5 Canvas
 * **Overview:** Responsive in-browser image editor widget designed for integration into CMSs, client upload portals, and digital asset management tools.
 * **Key Strengths:** Fine adjustment controls (brightness, contrast, saturation, exposure), watermarking, preset filters, image annotations, and crop presets.
 * **Considerations:** Front-end editor component requiring backend integration for file persistence.
 
-### 14. [PicPeak](https://github.com/PicPeak/picpeak) [![GitHub stars](https://img.shields.io/github/stars/PicPeak/picpeak?style=social&color=white)](https://github.com/PicPeak/picpeak/stargazers)
+### 14. [PicPeak](https://github.com/PicPeak/picpeak) [![GitHub_Stars](https://img.shields.io/github/stars/PicPeak/picpeak?style=social&color=white)](https://github.com/PicPeak/picpeak/stargazers)
 * **License:** MIT | **Stack:** TypeScript, Docker
 * **Overview:** Tailored self-hosted client gallery and proofing platform built specifically for working event and wedding photographers looking to replace Pixieset or ShootProof.
 * **Key Strengths:** Password-protected time-limited client galleries, free white-label branding, guest uploads, download tracking, webhook integrations (n8n/Slack/Zapier), and Lightroom Classic plugin sync for proofing selections.
 * **Considerations:** Newer project compared to Immich; rapidly expanding its community and feature set.
 
-### 15. [CalibRaw](https://github.com/Duecki1/CalibRaw) [![GitHub stars](https://img.shields.io/github/stars/Duecki1/CalibRaw?style=social&color=white)](https://github.com/Duecki1/CalibRaw/stargazers)
+### 15. [CalibRaw](https://github.com/Duecki1/CalibRaw) [![GitHub_Stars](https://img.shields.io/github/stars/Duecki1/CalibRaw?style=social&color=white)](https://github.com/Duecki1/CalibRaw/stargazers)
 * **License:** GPL-3.0 | **Stack:** C++, WebAssembly, Android
 * **Overview:** Cross-platform RAW image editor for Android, Web, and Desktop featuring familiar Lightroom-style parameter sliders and local AI processing.
 * **Key Strengths:** Tone curves, masks, color grading, HDR merging, and local on-device AI object removal without sending RAW captures to third-party cloud servers.
